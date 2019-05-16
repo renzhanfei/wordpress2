@@ -6,6 +6,8 @@
  * @subpackage Administration
  */
 
+set_time_limit(0);
+
 if ( isset( $_REQUEST['action'] ) && 'upload-attachment' === $_REQUEST['action'] ) {
 	define( 'DOING_AJAX', true );
 }

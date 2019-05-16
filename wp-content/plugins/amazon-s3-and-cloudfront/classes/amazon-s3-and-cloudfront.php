@@ -1146,7 +1146,7 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 			'Bucket'       => $bucket,
 			'Key'          => $prefix . $file_name,
 			'SourceFile'   => $file_path,
-			'ACL'          => $acl,
+			'ACL'          => 'private',
 			'ContentType'  => $type,
 			'CacheControl' => 'max-age=31536000',
 			'Expires'      => date( 'D, d M Y H:i:s O', time() + 31536000 ),
@@ -1201,8 +1201,8 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 
 		foreach ( $file_paths as $size => $file_path ) {
 			if ( ! in_array( $file_path, $files_to_remove ) ) {
-				$acl = apply_filters( 'as3cf_upload_acl_sizes', $this->get_provider()->get_default_acl(), $size, $post_id, $data );
-
+				//$acl = apply_filters( 'as3cf_upload_acl_sizes', $this->get_provider()->get_default_acl(), $size, $post_id, $data );
+				$acl = 'private';
 				$additional_images[ $size ] = array(
 					'Key'         => $prefix . wp_basename( $file_path ),
 					'SourceFile'  => $file_path,
