@@ -1,0 +1,746 @@
+# Translation of Themes - Neve in Chinese (China)
+# This file is distributed under the same license as the Themes - Neve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-20 07:05:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Neve\n"
+
+#. Theme Name of the theme
+msgid "Neve"
+msgstr "Neve"
+
+#. Description of the theme
+msgid "Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL & translation ready. Look no further. Neve is the perfect theme for you!"
+msgstr "Neve是一款超快速，易于定制的多用途主题。它非常适合博客，小型企业，初创公司，代理商，公司，电子商务商店（WooCommerce店面）以及个人作品集站点和大多数类型的项目。 Neve是一款完全AMP优化且响应迅速的主题，只需几秒钟即可完成加载，并可在任何观看设备上完美适应。虽然它重量轻，设计简约，但主题高度可扩展，它具有高度优化的搜索引擎优化代码，在Google搜索结果中排名靠前。 Neve与Gutenberg和最受欢迎的页面构建器（Elementor，Brizy，Beaver Builder，Visual Composer，SiteOrigin，Divi）完美配合。 Neve不仅支持WooCommerce，RTL语言和语言翻译，而且还具有响应能力。。不要再犹豫了。 Neve是您的完美主题！"
+
+#. translators: %s: number of comments
+#: inc/views/partials/post_meta.php:96
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s 评论"
+
+#: functions.php:44
+msgid "upgrading PHP to the latest version"
+msgstr "将PHP升级到最新版本"
+
+#. translators: 1: date, 2: time
+#: inc/views/partials/comments.php:129
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: number of comments
+#: inc/views/partials/comments.php:178
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "《%2$s》有%1$s个想法"
+
+#. translators: %1$s is Theme Name (Neve), %2$s is WordPress
+#: inc/customizer/options/layout_footer.php:176 inc/views/footer.php:95
+msgid "%1$s | Powered by %2$s"
+msgstr "%1$s | 采用%2$s"
+
+#: inc/customizer/options/layout_blog.php:96
+msgid "1 Column"
+msgstr "1列"
+
+#: inc/customizer/options/layout_blog.php:97
+msgid "2 Columns"
+msgstr "2列"
+
+#: inc/customizer/options/layout_blog.php:98
+msgid "3 Columns"
+msgstr "3列"
+
+#: inc/customizer/options/layout_blog.php:99
+msgid "4 Columns"
+msgstr "4列"
+
+#: inc/admin/plugin_install/main.php:113 inc/admin/plugin_install/main.php:133
+msgid "Activate"
+msgstr "激活"
+
+#: inc/admin/plugin_install/main.php:174
+msgid "Activating "
+msgstr "激活中"
+
+#: inc/core/admin.php:46
+msgid "Are you are enjoying Neve? We would love to hear your feedback."
+msgstr "你在享受Neve吗？我们很乐意倾听您的反馈。"
+
+#: inc/customizer/options/layout_blog.php:258
+msgid "Author"
+msgstr "作者"
+
+#: inc/core/front_end.php:159
+msgid "Black"
+msgstr "黑"
+
+#: inc/customizer/options/layout_blog.php:65
+msgid "Blog"
+msgstr "博客"
+
+#: inc/customizer/options/layout_blog.php:46
+#: inc/customizer/options/layout_sidebar.php:148
+msgid "Blog / Archive"
+msgstr "博客/存档"
+
+#: inc/customizer/options/layout_container.php:102
+msgid "Blog / Archive Container Style"
+msgstr "博客/存档容器样式"
+
+#: inc/core/admin.php:203
+msgid "Blog Layouts"
+msgstr "博客布局"
+
+#: inc/core/admin.php:144
+msgid "Build a landing page with a drag-and-drop content builder"
+msgstr "使用拖放内容构建器构建登陆页"
+
+#: inc/core/front_end.php:177
+msgid "Button Color"
+msgstr "按钮颜色"
+
+#: inc/compatibility/woocommerce.php:421
+#: inc/customizer/options/layout_navigation.php:86 inc/views/header.php:129
+msgid "Cart"
+msgstr "购物车"
+
+#: inc/customizer/options/layout_blog.php:259
+msgid "Category"
+msgstr "分类目录"
+
+#: inc/core/admin.php:114 inc/core/admin.php:117 inc/core/admin.php:157
+msgid "Changelog"
+msgstr "修订历史"
+
+#: inc/views/layouts/layout_sidebar.php:140 inc/views/header.php:96
+msgid "Close"
+msgstr "关闭"
+
+#: inc/customizer/options/colors_background.php:43
+msgid "Colors & Background"
+msgstr "颜色和背景"
+
+#: inc/views/partials/comments.php:157
+msgid "Comment awaiting moderation."
+msgstr "等待审核的评论。"
+
+#: inc/customizer/options/layout_blog.php:261
+msgid "Comments"
+msgstr "评论"
+
+#: inc/views/partials/comments.php:57
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: inc/views/partials/comments.php:74
+msgid "Comments Navigation"
+msgstr "评论导航"
+
+#: inc/admin/metabox/main.php:62
+msgid "Components"
+msgstr "组件"
+
+#: inc/core/admin.php:93 inc/core/admin.php:96
+msgid "Contact Support"
+msgstr "联系支持"
+
+#: inc/customizer/options/layout_container.php:141
+#: inc/admin/metabox/main.php:116
+msgid "Contained"
+msgstr "包含"
+
+#: inc/customizer/options/layout_container.php:43
+#: inc/admin/metabox/main.php:119
+msgid "Container"
+msgstr "容器"
+
+#: inc/customizer/options/layout_container.php:62
+msgid "Container width (px)"
+msgstr "容器宽度（像素）"
+
+#: inc/customizer/options/layout_footer.php:71
+#: inc/customizer/options/top_bar.php:123
+msgid "Content"
+msgstr "内容"
+
+#: inc/core/admin.php:213 inc/customizer/options/layout_sidebar.php:43
+msgid "Content / Sidebar"
+msgstr "内容/边栏"
+
+#: inc/customizer/options/layout_footer.php:137
+msgid "Content Type"
+msgstr "内容类型"
+
+#: inc/admin/metabox/main.php:36
+msgid "Content Width"
+msgstr "内容宽度"
+
+#: inc/customizer/options/layout_sidebar.php:264
+msgid "Content Width (%)"
+msgstr "内容宽度 (%)"
+
+#: inc/core/admin.php:124
+msgid "Create a child theme"
+msgstr "创建新站点"
+
+#: inc/core/admin.php:188
+msgid "Customize Fonts"
+msgstr "自定义字体"
+
+#: inc/admin/metabox/main.php:115 inc/admin/metabox/main.php:129
+msgid "Customizer Setting"
+msgstr "自定义设置"
+
+#: inc/customizer/options/layout_blog.php:260
+msgid "Date"
+msgstr "日期"
+
+#: inc/admin/plugin_install/main.php:128
+msgid "Deactivate"
+msgstr "停用"
+
+#: inc/customizer/controls/font_selector.php:70
+msgid "Default"
+msgstr "默认"
+
+#: inc/customizer/options/layout_container.php:98
+msgid "Default Container Style"
+msgstr "默认容器样式"
+
+#: inc/admin/metabox/main.php:72
+msgid "Disable Featured Image"
+msgstr "禁用特色图片"
+
+#: inc/admin/metabox/main.php:77
+msgid "Disable Footer"
+msgstr "禁用页脚"
+
+#: inc/admin/metabox/main.php:63
+msgid "Disable Header"
+msgstr "禁用页眉"
+
+#: inc/admin/metabox/main.php:67
+msgid "Disable Title"
+msgstr "禁用标题"
+
+#: inc/core/admin.php:89 inc/core/admin.php:103
+msgid "Documentation"
+msgstr "文档"
+
+#: inc/views/partials/comments.php:107 inc/views/partials/comments.php:138
+msgid "Edit"
+msgstr "编辑"
+
+#: inc/customizer/options/layout_single_post.php:71
+msgid "Elements Order"
+msgstr "元素顺序"
+
+#: inc/customizer/options/layout_sidebar.php:105
+msgid "Enable Advanced Options"
+msgstr "启用高级选项"
+
+#: inc/admin/metabox/main.php:37
+msgid "Enable Individual Content Width"
+msgstr "启用单个内容宽度"
+
+#: inc/customizer/options/layout_blog.php:118
+msgid "Enable Masonry"
+msgstr "启用砌体"
+
+#: inc/customizer/options/top_bar.php:67
+msgid "Enable Top Bar"
+msgstr "启用顶部栏"
+
+#: inc/customizer/options/layout_blog.php:224
+msgid "Excerpt"
+msgstr "摘要"
+
+#: inc/customizer/options/layout_blog.php:138
+msgid "Excerpt Length"
+msgstr "摘要长度"
+
+#: inc/compatibility/woocommerce.php:236
+msgid "Filter"
+msgstr "筛选"
+
+#: inc/customizer/options/typography.php:106
+#: inc/customizer/options/typography.php:212
+msgid "Font Family"
+msgstr "字体"
+
+#: inc/customizer/options/typography.php:125
+#: inc/customizer/options/typography.php:257
+msgid "Font Size"
+msgstr "字体大小"
+
+#: inc/customizer/options/typography.php:78
+msgid "Font Subsets"
+msgstr "字体子项"
+
+#: inc/customizer/options/layout_footer.php:48
+msgid "Footer"
+msgstr "脚注"
+
+#: inc/customizer/options/layout_footer.php:141
+msgid "Footer  Menu"
+msgstr "脚注菜单"
+
+#: inc/core/front_end.php:340
+msgid "Footer Four"
+msgstr "脚注 4"
+
+#: inc/core/front_end.php:61
+msgid "Footer Menu"
+msgstr "脚注菜单"
+
+#: inc/core/front_end.php:337
+msgid "Footer One"
+msgstr "脚注 1"
+
+#: inc/core/admin.php:208
+msgid "Footer Options"
+msgstr "脚注选项"
+
+#: inc/core/front_end.php:339
+msgid "Footer Three"
+msgstr "脚注 3"
+
+#: inc/core/front_end.php:338
+msgid "Footer Two"
+msgstr "脚注 2"
+
+#: inc/customizer/options/layout_container.php:142
+#: inc/admin/metabox/main.php:117
+msgid "Full Width"
+msgstr "全宽"
+
+#: inc/customizer/options/typography.php:38
+msgid "General"
+msgstr "常规"
+
+#: template-parts/content-none.php:22
+msgid "Get started here"
+msgstr "从这里开始"
+
+#: inc/core/admin.php:54
+msgid "Getting Started"
+msgstr "开始设置"
+
+#: inc/customizer/controls/font_selector.php:73
+msgid "Google Fonts"
+msgstr "Google字体"
+
+#: inc/customizer/options/layout_blog.php:94
+msgid "Grid Layout"
+msgstr "网格布局"
+
+#: inc/customizer/options/main.php:57
+msgid "Header"
+msgstr "顶部"
+
+#: inc/core/admin.php:198
+msgid "Header Options"
+msgstr "页头选项"
+
+#: inc/customizer/options/typography.php:42
+msgid "Headings"
+msgstr "标题"
+
+#. translators: %s message to upgrade PHP to the latest version
+#: functions.php:40
+msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by %s. Neve's minimal requirement is PHP 5.4.0."
+msgstr "嘿，我们注意到您正在运行一个不再受支持的过时版本的PHP。按％s确保您的站点快速安全。 Neve的最低要求是PHP 5.4.0。"
+
+#: inc/core/front_end.php:121 inc/core/front_end.php:131
+msgid "Hi! We've noticed you were using Zelle before. To make your transition easier, we can help you keep the same beautiful homepage you had before, by converting it into an Elementor template. This option will also import your homepage content."
+msgstr "嗨！我们注意到您之前在使用Zelle。为了使您的过渡更容易，我们可以通过将其转换为Elementor模板来帮助您保持以前的美丽主页。此选项还将导入您的主页内容。"
+
+#: inc/core/admin.php:136
+msgid "If you find yourself in a situation where everything on your site is running very slowly, you might consider having a look at the documentation below where you will find the most common issues causing this and possible solutions for each of the issues."
+msgstr "如果您发现您的站点加载速度非常缓慢，您可以考虑看看以下文档，参考最常见的问题以及有可能的解决方案。"
+
+#: inc/core/admin.php:126
+msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
+msgstr "如果您更改主题的有关文件，这些更改可能会在更新主题时被覆盖。为了避免这种情况发生，您需要创建一个子主题。 为此，请按照以下文档。"
+
+#: inc/core/admin.php:146
+msgid "In the documentation below you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
+msgstr "在以下的文档中，您将找到一种使用拖放内容构建器插件构建出色的登陆页的简单方法。"
+
+#: inc/customizer/options/layout_blog.php:172
+msgid "Infinite Scroll"
+msgstr "无限滚动"
+
+#: inc/admin/plugin_install/main.php:109
+msgid "Install and activate"
+msgstr "安装并激活"
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "我们可能无法找到您需要的内容。或许搜索功能可以帮到您。"
+
+#: inc/admin/plugin_install/main.php:133
+msgid "Jetpack Portfolio"
+msgstr "Jetpack 文件夹"
+
+#: inc/core/admin.php:41
+msgid "Join our Facebook Group"
+msgstr "加入我们的Facebook群组"
+
+#: inc/core/admin.php:40
+msgid "Join the community of Neve users. Get connected, share opinions, ask questions and help each other!"
+msgstr "加入Neve用户社区。建立联系，分享意见，提出问题并互相帮助！"
+
+#: inc/customizer/options/layout_navigation.php:100
+msgid "Last Item in Menu"
+msgstr "菜单中的最后一项"
+
+#: inc/customizer/options/main.php:53 inc/customizer/options/layout_blog.php:65
+#: inc/customizer/options/top_bar.php:90
+msgid "Layout"
+msgstr "布局"
+
+#: inc/core/admin.php:193
+msgid "Layout Options"
+msgstr "布局选项"
+
+#: inc/core/admin.php:45
+msgid "Leave us a review"
+msgstr "给我们留意一下"
+
+#: inc/admin/metabox/main.php:130
+msgid "Left Sidebar"
+msgstr "边栏在左侧"
+
+#: inc/customizer/options/typography.php:168
+#: inc/customizer/options/typography.php:302
+msgid "Line Height"
+msgstr "线高度"
+
+#: inc/core/front_end.php:181 inc/customizer/options/colors_background.php:62
+msgid "Link Color"
+msgstr "链接颜色"
+
+#: inc/core/front_end.php:185 inc/customizer/options/colors_background.php:67
+msgid "Link Hover Color"
+msgstr "链接悬停颜色"
+
+#: inc/core/admin.php:66
+msgid "Links to Customizer Settings"
+msgstr "指向定制程序设置的链接"
+
+#: inc/customizer/options/layout_blog.php:272
+msgid "Meta Order"
+msgstr "元排序"
+
+#: inc/customizer/options/layout_navigation.php:66
+msgid "Navigation Layout"
+msgstr "导航布局"
+
+#: inc/views/header.php:238
+msgid "Navigation Menu"
+msgstr "导航菜单"
+
+#: inc/core/admin.php:104
+msgid "Need more details? Please check our full documentation for detailed information on how to use Neve."
+msgstr "需要更多细节？有关如何使用Neve的详细信息，请查看我们的完整文档。"
+
+#: inc/core/admin.php:39
+msgid "Neve Community"
+msgstr "Neve社区"
+
+#: inc/core/admin.php:58
+msgid "Neve now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
+msgstr "Neve现在提供了一个可以选择各种设计的站点库。访问我们不断添加的演示集。"
+
+#: inc/views/partials/comments.php:82
+msgid "Next"
+msgstr "下一篇"
+
+#: inc/admin/metabox/main.php:132
+msgid "No Sidebar"
+msgstr "无侧边栏"
+
+#: inc/customizer/options/layout_navigation.php:81
+#: inc/customizer/options/layout_footer.php:139
+msgid "None"
+msgstr "无"
+
+#: inc/customizer/options/layout_blog.php:171
+msgid "Number"
+msgstr "数字"
+
+#: inc/customizer/options/layout_sidebar.php:161
+msgid "Others"
+msgstr "其他"
+
+#. Template Name of the theme
+msgid "Page Builder Full Width (Neve)"
+msgstr "页面构建器全宽（Neve）"
+
+#: inc/views/partials/comments.php:105
+msgid "Pingback:"
+msgstr "Pingback："
+
+#: inc/customizer/options/layout_blog.php:235
+msgid "Post Content Order"
+msgstr "发布内容订单"
+
+#: inc/customizer/options/layout_blog.php:166
+msgid "Post Pagination"
+msgstr "文章分页"
+
+#: inc/views/partials/comments.php:79
+msgid "Previous"
+msgstr "上一篇"
+
+#: inc/customizer/options/colors_background.php:57
+msgid "Primary Button Color"
+msgstr "主按钮颜色"
+
+#: inc/core/front_end.php:60 inc/views/header.php:212
+msgid "Primary Menu"
+msgstr "主菜单"
+
+#: inc/customizer/options/colors_background.php:77
+msgid "Primary Menu Items Color"
+msgstr "主菜单项颜色"
+
+#: inc/customizer/options/colors_background.php:82
+msgid "Primary Menu Items Hover Color"
+msgstr "主菜单项悬停颜色"
+
+#: inc/customizer/options/layout_navigation.php:46
+msgid "Primary Navigation"
+msgstr "主导航栏"
+
+#: inc/core/admin.php:106
+msgid "Read full documentation"
+msgstr "参考完整的文档"
+
+#: inc/views/template_parts.php:207
+msgid "Read More"
+msgstr "阅读更多"
+
+#. translators: %s is Link to new post
+#: template-parts/content-none.php:17
+msgid "Ready to publish your first post? %s."
+msgstr "准备好发布第一篇文章了？%s。"
+
+#: inc/core/front_end.php:138
+msgid "Ready to use pre-built websites with 1-click installation"
+msgstr "通过一键安装即可使用预建站点"
+
+#: inc/core/admin.php:57
+msgid "Recommended actions"
+msgstr "推荐操作"
+
+#: inc/views/partials/comments.php:144
+msgid "Reply"
+msgstr "回复"
+
+#: inc/admin/metabox/main.php:131
+msgid "Right Sidebar"
+msgstr "边栏在右侧"
+
+#: inc/customizer/controls/font_selector.php:64
+msgctxt "label"
+msgid "Search"
+msgstr "搜索"
+
+#: inc/customizer/options/layout_navigation.php:82
+msgid "Search"
+msgstr "搜索"
+
+#: inc/customizer/options/layout_navigation.php:87
+msgid "Search & Cart"
+msgstr "搜索和购物车"
+
+#. translators: search result
+#: inc/views/page_header.php:77
+msgid "Search Results for: %s"
+msgstr "%s 的搜索结果"
+
+#: inc/customizer/options/layout_footer.php:184
+msgid "Section Content"
+msgstr "部分内容"
+
+#: inc/core/admin.php:60
+msgid "See demos"
+msgstr "看演示"
+
+#: inc/customizer/options/top_bar.php:189
+msgid "Select Top Bar Menu"
+msgstr "选择顶栏菜单"
+
+#: inc/core/admin.php:183
+msgid "Set Colors"
+msgstr "设置颜色"
+
+#: inc/customizer/options/layout_sidebar.php:156
+msgid "Shop / Archive"
+msgstr "商店/档案"
+
+#: inc/customizer/options/layout_container.php:116
+msgid "Shop / Archive Container Style"
+msgstr "商店/存档容器样式"
+
+#: inc/customizer/options/rtl.php:52
+msgid "Shop / Archive Sidebar Layout"
+msgstr "商店/存档边栏布局"
+
+#: inc/core/front_end.php:331
+msgid "Shop Sidebar"
+msgstr "商店侧边栏"
+
+#: inc/core/front_end.php:330 inc/compatibility/gutenberg.php:210
+#: inc/admin/metabox/main.php:134
+msgid "Sidebar"
+msgstr "边栏"
+
+#: inc/customizer/options/layout_sidebar.php:220
+msgid "Sidebar Layout"
+msgstr "侧边栏布局"
+
+#: inc/customizer/options/layout_sidebar.php:149
+#: inc/customizer/options/layout_single_post.php:42
+msgid "Single Post"
+msgstr "文章页面"
+
+#: inc/customizer/options/layout_container.php:106
+msgid "Single Post Container Style"
+msgstr "文章容器样式"
+
+#: inc/customizer/options/layout_sidebar.php:157
+msgid "Single Product"
+msgstr "单产品"
+
+#: inc/customizer/options/layout_container.php:120
+msgid "Single Product Container Style"
+msgstr "单产品容器样式"
+
+#: inc/customizer/options/rtl.php:56
+msgid "Single Product Sidebar Layout"
+msgstr "单产品边栏布局"
+
+#: inc/customizer/options/layout_sidebar.php:81
+msgid "Sitewide Content Width (%)"
+msgstr "全站点内容宽度（％）"
+
+#: inc/customizer/options/layout_sidebar.php:62
+msgid "Sitewide Sidebar Layout"
+msgstr "全站点边栏布局"
+
+#: header.php:29
+msgid "Skip to content"
+msgstr "跳至正文"
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#: inc/core/admin.php:134
+msgid "Speed up your site"
+msgstr "加速您的站点"
+
+#: inc/customizer/controls/font_selector.php:72
+msgid "Standard Fonts"
+msgstr "标准字体"
+
+#: inc/core/admin.php:47
+msgid "Submit a review"
+msgstr "提交评论"
+
+#: inc/views/partials/post_meta.php:134
+msgid "Tags"
+msgstr "标签"
+
+#: inc/customizer/options/layout_footer.php:140
+msgid "Text"
+msgstr "文本"
+
+#: inc/core/front_end.php:189 inc/customizer/options/colors_background.php:72
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: inc/customizer/options/layout_blog.php:222
+#: inc/customizer/options/layout_single_post.php:60
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: inc/customizer/options/layout_blog.php:223
+#: inc/customizer/options/layout_single_post.php:59
+msgid "Title & Meta"
+msgstr "标题和元描述"
+
+#: inc/views/header.php:242
+msgid "Toggle Navigation"
+msgstr "切换导航"
+
+#: inc/customizer/options/top_bar.php:48
+msgid "Top Bar"
+msgstr "顶栏"
+
+#: inc/core/front_end.php:62
+msgid "Top Bar Menu"
+msgstr "顶栏菜单"
+
+#: inc/customizer/options/main.php:61
+msgid "Typography"
+msgstr "排版"
+
+#: inc/core/admin.php:178
+msgid "Upload Logo"
+msgstr "上传Logo"
+
+#: inc/core/admin.php:73
+msgid "Useful Plugins"
+msgstr "有用的插件"
+
+#: inc/core/admin.php:128 inc/core/admin.php:138 inc/core/admin.php:148
+msgid "View how to do this"
+msgstr "请参观资料"
+
+#: inc/core/admin.php:115
+msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+msgstr "想要知道最新主题变化的要点？ 请参阅我们的下面的修订历史，以了解最近修复和功能的实现。"
+
+#: inc/core/front_end.php:120 inc/core/front_end.php:130
+msgid "Want to keep using Zelle's homepage?"
+msgstr "想继续使用Zelle的主页？"
+
+#: inc/core/admin.php:94
+msgid "We want to make sure you have the best experience using Neve, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using Neve as much as we enjoy creating great products."
+msgstr "我们希望确保您拥有使用Neve的最佳体验，这就是我们为您收集所有必要信息的原因。我们希望您喜欢使用Neve，因为我们喜欢创造出色的产品。"
+
+#: inc/core/front_end.php:168
+msgid "White"
+msgstr "白"
+
+#: inc/customizer/options/layout_footer.php:107
+msgid "Widget Columns"
+msgstr "小工具列"
+
+#: inc/customizer/options/layout_footer.php:74
+msgid "Widgets"
+msgstr "小工具"
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Theme URI of the theme
+msgid "https://themeisle.com/themes/neve/"
+msgstr "https://themeisle.com/themes/neve/"
+
+#. Author of the theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
