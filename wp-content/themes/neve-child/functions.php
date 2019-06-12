@@ -22,3 +22,16 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+//START SELF ADMIN LOGIN URL
+
+function login_protection(){
+    if($_GET['admin'] != 'gryffindor') {
+        $httpHost = $_SERVER['HTTP_HOST'];
+        header('Location: https://' . $httpHost);
+    }
+}
+add_action('login_enqueue_scripts', 'login_protection');
+
+//END SELF ADMIN LOGIN URL
+
