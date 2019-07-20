@@ -115,8 +115,10 @@
 		// var submitButton = $('.es_subscription_form_submit');
 
 		$(document).on('submit', '.es_subscription_form', function (e) {
+			console.log(456);
 			e.preventDefault();
 			var form = $(this);
+			console.log(123);
 			handleBindFunction(form);
 		});
 
