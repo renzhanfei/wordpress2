@@ -56,9 +56,9 @@ $wp_super_cache_late_init = 0;
 // uncomment the next line to enable advanced debugging features
 $wp_super_cache_advanced_debug = 0;
 $wp_super_cache_front_page_text = '';
-$wp_super_cache_front_page_clear = 0;
+$wp_super_cache_front_page_clear = 1;
 $wp_super_cache_front_page_check = 0;
-$wp_super_cache_front_page_notification = '0';
+$wp_super_cache_front_page_notification = 0;
 
 $wp_cache_object_cache = 0;
 $wp_cache_anon_only = 0;
@@ -101,7 +101,7 @@ $wp_cache_preload_taxonomies = 0;
 $wp_cache_preload_email_me = 0;
 $wp_cache_preload_email_volume = 'none';
 $wp_cache_mobile_prefixes = 'w3c , w3c-, acs-, alav, alca, amoi, audi, avan, benq, bird, blac, blaz, brew, cell, cldc, cmd-, dang, doco, eric, hipt, htc_, inno, ipaq, ipod, jigs, kddi, keji, leno, lg-c, lg-d, lg-g, lge-, lg/u, maui, maxo, midp, mits, mmef, mobi, mot-, moto, mwbp, nec-, newt, noki, palm, pana, pant, phil, play, port, prox, qwap, sage, sams, sany, sch-, sec-, send, seri, sgh-, shar, sie-, siem, smal, smar, sony, sph-, symb, t-mo, teli, tim-, tosh, tsm-, upg1, upsi, vk-v, voda, wap-, wapa, wapi, wapp, wapr, webc, winw, winw, xda , xda-';
-$cached_direct_pages = array();
+$cached_direct_pages = array(  );
 $wpsc_served_header = false;
 $cache_gc_email_me = 0;
 $wpsc_save_headers = 0;

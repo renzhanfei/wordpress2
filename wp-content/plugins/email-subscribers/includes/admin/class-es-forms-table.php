@@ -199,6 +199,7 @@ class ES_Forms_Table extends WP_List_Table {
 	}
 
 	public function prepare_list_form( $id = 0, $data = array() ) {
+	 
 
 		$is_new = empty( $id ) ? 1 : 0;
 
@@ -276,7 +277,7 @@ class ES_Forms_Table extends WP_List_Table {
                                                     <td><?php _e( 'Email', 'email-subscribers' ); ?></td>
                                                     <td><input type="checkbox" class="" name="form_data[email_visible]" value="yes" disabled="disabled" checked="checked"></td>
                                                     <td><input type="checkbox" class="" name="form_data[email_required]" value="yes" disabled="disabled" checked="checked"></td>
-                                                    <!--<td><input type="text" class="" name="form_data[email_label]" value="<?php echo $form_data['email_label']; ?>"></td>-->
+                                                    <td><input type="text" class="" name="form_data[email_label]" value="<?php echo $form_data['email_label']; ?>"></td>
                                                 </tr>
                                                 <tr class="form-field">
                                                     <td><?php _e( 'Name', 'email-subscribers' ); ?></td>
